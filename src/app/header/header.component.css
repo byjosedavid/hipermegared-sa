@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  background-color: #44014a;
+  height: 10vh;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 20px;
+  color: #eee;
+}
+
+a:hover {
+  color: #aee87b;
+}
