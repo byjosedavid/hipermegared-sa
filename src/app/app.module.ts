@@ -11,6 +11,7 @@ import { HomeComponent } from './components/layouts/home/home.component';
 import { ZonaFormComponent } from './components/layouts/forms/zona-form/zona-form.component';
 import { MercanciaFormComponent } from './components/layouts/forms/mercancia-form/mercancia-form.component';
 import { MercanciasComponent } from './components/helpers/mercancias/mercancias.component';
+import { ZonasComponent } from './components/helpers/zonas/zonas.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MercanciasComponent } from './components/helpers/mercancias/mercancias.
     ZonaFormComponent,
     MercanciaFormComponent,
     MercanciasComponent,
+    ZonasComponent,
   ],
   imports: [
     BrowserModule,

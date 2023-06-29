@@ -1,4 +1,4 @@
 export interface Zona {
-  nombre: string;
+  name: string;
   maxVolume: number;
 }
