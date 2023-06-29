@@ -1,0 +1,9 @@
+<div class="col" *ngFor="let data of mercancias">
+  <div class="card h-100 shadow p-4">
+    <h1>Nombre: {{ data.name }}</h1>
+    <h2>Descripción: {{ data.description }}</h2>
+    <h3>Fecha De Entrada: {{ data.entryDate }}</h3>
+    <h3>Razon de Entrada: {{ data.returnReason }}</h3>
+    <h3>Volumen: {{ data.volume }}</h3>
+  </div>
+</div>

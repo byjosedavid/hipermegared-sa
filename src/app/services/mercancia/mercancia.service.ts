@@ -1,9 +1,15 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class MercanciaService {
+  constructor(public servicio: HttpClient) {}
 
-  constructor() { }
+  public getMercancias(): Observable<any> {
+    let url = 'http://localhost:8080/api/v1/mercancia/';
+    return this.servicio.get(url);
+  }
 }
