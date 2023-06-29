@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  background-color: #c21d21;
+  background-color: #2e2f30;
   height: 7vh;
   align-items: center;
 }
@@ -12,5 +12,7 @@ a {
 }
 
 a:hover {
-  color: #aee87b;
+  color: #76816c;
 }
+
+

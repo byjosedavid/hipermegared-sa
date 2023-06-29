@@ -1,4 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap');
+
+
+
+
+h2 {
+
+  color: brown;
+
+
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  padding: 100px;
+  height: 80%;
+  width: 50vw;
+
+}
+
+.img-container {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 main {
+  width: 100vw;
+  height: 90vh;
+}
+
+.maps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* main {
   width: 100vw;
   height: 90vh;
 }
@@ -48,3 +102,4 @@ img:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
+ */
